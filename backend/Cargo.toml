@@ -1,0 +1,19 @@
+[package]
+name = "fim"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+argon2 = "0.5"
+axum = "0.7"
+chacha20poly1305 = "0.10"
+chrono = "0.4"
+hex = "0.4"
+rand = "0.8"
+rpassword = "7"
+serde = { version = "1", features = ["derive"] }
+sha2 = "0.10"
+tokio = { version = "1", features = ["full"] }
+tower-http = { version = "0.5", features = ["cors"] }
+walkdir = "2"
